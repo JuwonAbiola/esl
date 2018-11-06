@@ -1,4 +1,26 @@
 #particles-js {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: 50% 50%;
+
+}
+#particles1-js {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  background-position: 50% 50%;
+
+}
+#particles2-js {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  background-position: 50% 50%;
+}
+#particles3-js {
+  width: 100%;
+  height: 70%;
   position: absolute;
   background-position: 50% 50%;
 
@@ -7,23 +29,27 @@
   font-family: 'Nunito Sans', sans-serif;
   font-style: bold;
   font-size: 20px;
-  padding-right: 70px;
-  padding-left: 70px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
-#cen{
+.cen{
   text-align: center;
 }
 #cash{
   text-align: left;
 }
-#pay{
+.pay{
   text-align: left;
+  position: absolute;
+}
+.right{
+  text-align: right;
+  position: absolute;
 }
 .navbar{font-family: 'Nunito Sans', sans-serif;
-  padding-left: 30px;
 }
 .nav-item{
-  padding-left: 30px;
+  padding-left: 10px;
 }
 .btn{
   padding:10px;
@@ -61,6 +87,161 @@ footer{
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 20px;
+}
 
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
 
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* Slider */
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  max-height: 90px;
+}
+
+.slick-slider
+{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+          user-select: none;
+  touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+  tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus
+{
+  outline: none;
+}
+.slick-list.dragging
+{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+  transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+  display: table;
+  content: '';
+}
+.slick-track:after
+{
+  clear: both;
+}
+.slick-loading .slick-track
+{
+  visibility: hidden;
+}
+
+.slick-slide
+{
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+  float: right;
+}
+.slick-slide img
+{
+  display: block;
+}
+.slick-slide.slick-loading img
+{
+  display: none;
+}
+.slick-slide.dragging img
+{
+  pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+  display: block;
+}
+.slick-loading .slick-slide
+{
+  visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+/* shake effect */
+@keyframes spaceboots {
+0% { transform: translate(2px, 1px) rotate(0deg); }
+10% { transform: translate(-1px, -2px) rotate(-1deg); }
+20% { transform: translate(-3px, 0px) rotate(1deg); }
+30% { transform: translate(0px, 2px) rotate(0deg); }
+40% { transform: translate(1px, -1px) rotate(1deg); }
+50% { transform: translate(-1px, 2px) rotate(-1deg); }
+60% { transform: translate(-3px, 1px) rotate(0deg); }
+70% { transform: translate(2px, 1px) rotate(-1deg); }
+80% { transform: translate(-1px, -1px) rotate(1deg); }
+90% { transform: translate(2px, 2px) rotate(0deg); }
+100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake:hover,
+.shake:focus {
+animation-name: spaceboots;
+animation-duration: 0.8s;
+transform-origin:50% 50%;
+animation-iteration-count: 0.15s;
+animation-timing-function: linear;
 }

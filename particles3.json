@@ -1,7 +1,7 @@
 {
     "particles":{
         "number":{
-            "value":80
+            "value":150
         },
         "color":{
             "value":"#FF1493"
@@ -31,7 +31,8 @@
             "enable": true,
             "speed": 4,
             "direction": "none",
-            "random": true
-                    }
+            "random": true,
+            "straight":true
+            }
     }
 }
