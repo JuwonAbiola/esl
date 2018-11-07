@@ -1,6 +1,7 @@
+@media only screen and (min-width: 768px) {
 #particles-js {
   width: 100%;
-  height: 100%;
+  height: 70%;
   position: absolute;
   background-position: 50% 50%;
 
@@ -20,7 +21,7 @@
 }
 #particles3-js {
   width: 100%;
-  height: 70%;
+  height: 100%;
   position: absolute;
   background-position: 50% 50%;
 
@@ -34,6 +35,8 @@
 }
 .cen{
   text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 #cash{
   text-align: left;
@@ -58,6 +61,11 @@
     text-align: center;
     border-radius: 20px;
 }
+.small{
+  display: none;
+}
+}
+
 footer{
   background-color:#091f3c;
   color:#fff;
@@ -88,6 +96,7 @@ footer{
   padding-bottom: 25px;
   border-radius: 20px;
 }
+
 
 #slideshow {
   margin: 80px auto;
@@ -244,4 +253,34 @@ animation-duration: 0.8s;
 transform-origin:50% 50%;
 animation-iteration-count: 0.15s;
 animation-timing-function: linear;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #particles-js {
+   display: none;
+}#particles1-js {
+  display: none;
+}#particles2-js {
+  display: none;
+}#particles3-js {
+  display: none;
+}
+.pay{
+  text-align: justify;
+position: inherit;
+}
+.cen{
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container-fluid{
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 }
