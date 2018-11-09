@@ -1,311 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    <link rel="stylesheet" href="css/style.css">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-<script crc="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script crc="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
-<script>
+  <script>
     particlesJS.load('particles-js','particles.json',
       function(){
       console.log('particles-json loaded .... ')
     })
     </script>
-    <script>
-      particlesJS.load('particles1-js','particles1.json',
-        function(){
-        console.log('particles-json loaded .... ')
-      })
-      </script>
-      <script>
-        particlesJS.load('particles2-js','particles2.json',
-          function(){
-          console.log('particles-json loaded .... ')
-        })
-        </script>
-        <script>
-          particlesJS.load('particles3-js','particles3.json',
+  <script>
+    particlesJS.load('particles0-js','particles0.json',
             function(){
             console.log('particles-json loaded .... ')
           })
           </script>
-<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
-  
-      <title>E-settlement</title>
+  <script>
+    particlesJS.load('particles1-js','particles1.json',
+                  function(){
+                  console.log('particles-json loaded .... ')
+                })
+                </script>
+  <script>
+    particlesJS.load('particles2-js','particles2.json',
+          function(){
+          console.log('particles-json loaded .... ')
+        })
+        </script>
+  <script>
+    particlesJS.load('particles3-js','particles3.json',
+            function(){
+            console.log('particles-json loaded .... ')
+          })
+          </script>
+  <script src="js/test.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+
+  <title>
+    E-settlement
+  </title>
 </head>
 
 <body>
-  
-  
-<nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #091f3c;">
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #091f3c;">
     <a class="navbar-brand" href="#">
-      <img src="img/logo22.png"  style="margin-left:75px" alt="e-Settlement" height="30px" width="265px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-         <a class="nav-link" href="#"><b>HOME  </b> <span class="sr-only">(current)</span></a>
-        </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">
-          <b>ABOUT</b>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#product"><b>PRODUCTS  </b></a>
-      </li>
-      <li class="nav-item"  style="margin-right:75px" >
-        <a class="nav-link" href="web.html"><b>CONTACT US         </b></a>
-      </li>
-     </ul>
-  </div>
-</nav>    
-      <div class="container-fluid">
-
-  <div id="pay">
-      <div class="row">
-          <div class="col-md-8" align="left">
-            
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-      
-              <h1 style="color:#c9092e"><strong  style="font-size:50px">Enabling Financial Inclusion in Africa</strong></h1>
-              <br/>
-              <h2>
-                <b>Touching  lives and growing businesses</b>
-              </h2>
-     We are touching lives by providing access to financial services and creating jobs outside of the
-    cities through our agent network. We are transforming and helping to grow businesses across
-    Africa using our E-Payment solutions.
-<br/>
-  <br/>
-  <h3><a href="web.html" role="button" class="btn btn-outline-dark" ><b>Contact Us  ></b></a></h3>
-  <br/>  
-  <p id="about"></p>
-  <br/> 
-  <br/>
-</div>
-<div class="col" align="right">
-    <div id="particles3-js"></div>
-
-</div>
-</div>
-
-  <div ><h2><strong><center>What We Do</center></strong></h2>
-  <div class="cen" ><h7><center>E-Settlement Limited is a Financial Services provider that offers various products and services that cater to a selective target market. We provide solutions to everyday financial problems in Africa. We are a software company that develops software solutions that improve business processes of our clients.</center></h7>
-  </div>
-</div>
-<br/>  
-<p id="product"></p>
-<br/>  
-<br/>  
-  <h2 style="color:#091f3c"><strong><center>Our Products</center></strong></h2>
-  <br/>
-  <div class="row">
-            <div class="col-lg-6 col-sm-12">
-                <div id="particles1-js" >
-                  <div class="pay">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-              <h2 style="color:#c9092e"><strong>Pay Centre</strong></h2>
-               PayCentre is a neighborhood bank! The solutionn provides access to financial services in areas where Banks do not exist by converting existing retail outlets to Banking centres.
-              
-                <br/>
-              <br/>
-              <h4><b>Visit Product ></b></h4>
+      <div id="nav">
+        <div class="card1-container">
+          <div class="card1">
+            <div class="side"> <img src="img/logo22.png" alt="e-Settlement" height="30px" width="180px">
+            </div>
+            <div class="side back"> <img src="img/logo22.png" alt="e-Settlement" height="30px" width="180px">
+            </div>
+          </div>
         </div>
       </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            <b>
+              HOME
+            </b>
+            <span class="sr-only">
+              (current)
+            </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">
+            <b>
+              ABOUT
+            </b>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#product">
+            <b>
+              PRODUCTS
+            </b>
+          </a>
+        </li>
+        <li class="nav-item" style="margin-right:75px">
+          <a class="nav-link" href="web.html">
+            <b>
+              CONTACT US
+            </b>
+          </a>
+        </li>
+      </ul>
     </div>
+  </nav>
+  <!-- navbar end -->
 
-
-
-    <!-- only avilable on small screens -->
-<div class="small">
-    <div class="col-lg-6 col-sm-12">
-          <div class="pay">
-        <br/>
-      <h2 style="color:#c9092e"><strong>Pay Centre</strong></h2>
-       PayCentre is a neighborhood bank! The solutionn provides access to financial services in areas where Banks do not exist by converting existing retail outlets to Banking centres.
-      
-        <br/>
-      <br/>
-      <h4><b>Visit Product ></b></h4>
-</div>
-</div>
-</div>
-  <!-- ends here -->
-    <div class="col-lg-6 col-sm-12">
-        <img src="img/p.png" alt="Smiley face" height="100%" width="100%">
-    </div>
-  </div>
-<div class="row">
-  <!-- only avilable on small screens -->
-<div class="small">
-    <div class="col-lg-6 col-sm-12">
-      <div id="cash">
-            <div class="pay">
-                <br/>
-              <h2 style="color:#c9092e"><strong>Cash Envoy</strong></h2>
-    CashEnvoy is a payment gateway that allows merchants receive payment for goods and services from customers online and offline through the mpos.
-    <br/>
-    <br/>
-    <h4><b align="left">Visit Product ></b></h4>
-    </div>
-    </div>
-    </div>
-    </div>
-    <br/>
-    <!-- ends here -->
-  <div class="col">
-      <img src="img/cash.png" alt="Smiley face" height="100%" width="100%">
-  </div>
-  <div class="col-lg-6 col-sm-12">
-      <div id="cash">
-        <div id="particles2-js">
-            <div class="pay">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-          
-              <h2 style="color:#c9092e"><strong>Cash Envoy</strong></h2>
-    CashEnvoy is a payment gateway that allows merchants receive payment for goods and services from customers online and offline through the mpos.
-  
-    <br/>
-    <br/>
-    <h4><b align="left">Visit Product ></b></h4>
-  </div>
-</div>
-</div>
-  </div>
-</div>
-<br/>
-
-<div class="row">
-    <div class="col-lg-6 col-sm-12">
-        <div id="particles-js">
-        <div class="pay">
-          <br/>
-          <br/>    <br/>
-          <br/>
-    
-          <h2 style="color:#c9092e"><strong>PayPad</strong></h2>
-    PayPad is a white labelled mpos solution. That allows Banks and acquiring institutions deploy mpos solutions for their customers to accept card and cash payments.    
-    <br/>
-    <br/>
-    <h4><b>Visit Product ></b></h4>
-    </div>
-    </div>
-  </div>
-  <!-- only avilable on small screens -->
-  <div class="small">
-    <div class="col-lg-6 col-sm-12">
-      <div class="pay">
-        <br/>
-  <h2 style="color:#c9092e"><strong>PayPad</strong></h2>
-  PayPad is a white labelled mpos solution. That allows Banks and acquiring institutions deploy mpos solutions for their customers to accept card and cash payments.    
-  <br/>
-  <br/>
-  <h4><b>Visit Product ></b></h4>
-  </div>
-</div>
-  </div>
-  <!-- ends here -->
-  
-  <div class="col-lg-6 col-sm-12">
-      <img src="img/pay.png" alt="Smiley face" height="100%" width="100%">
-
-  </div>
-</div>
-<br/>
-<div class="row">
-    <div class="col-lg-6 col-sm-12">
+  <!-- main body -->
+  <div class="container-fluid">
+    <div id="pay">
+      <div class="row">
+        <div class="col-md-8" align="left">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <h1 style="color:#c9092e">
+            <strong style="font-size:50px">
+              Enabling Financial Inclusion in Africa
+            </strong>
+          </h1>
+          <br />
+          <h2>
+            <b>
+              Touching lives and growing businesses
+            </b>
+          </h2>
+          We are touching lives by providing access to financial services and creating jobs outside of the
+          cities through our agent network. We are transforming and helping to grow businesses across
+          Africa using our E-Payment solutions.
+          <br />
+          <br />
+          <h3>
+            <a href="web.html" role="button" class="btn btn-outline-dark">
+              <b>
+                Contact Us <img src="img/right.png" alt="e-Settlement">
+              </b>
+            </a>
+          </h3>
+          <br />
+          <p id="about"></p>
+          <br />
+          <br />
+        </div>
+        <div class="col" align="right">
+          <div id="particles3-js"></div>
+        </div>
       </div>
-</div>
-<br/>
-<h2 style="color:#0c4768"><strong><center>Our Partners</center></strong></h2>
 
+      <div>
+        <h2>
+          <strong>
+            <center>
+              What We Do
+            </center>
+          </strong>
+        </h2>
+        <div class="cen">
+          <h7>
+            <center>
+              E-Settlement Limited is a Financial Services provider that offers various products and services
+              that cater to a selective target market. We provide solutions to everyday financial problems in Africa.
+              We are a software company that develops software solutions that improve business processes of our
+              clients.
+            </center>
+          </h7>
+        </div>
+      </div>
 
-<section class="customer-logos slider">
-  <div class="slide"><img src="img/access.jpg"></div>
-  <div class="slide"><img src="img/GTBank.jpg"></div>
-  <div class="slide"><img src="img/diamond.jpg"></div>
-  <div class="slide"><img src="img/nipost.jpg"></div>
-  <div class="slide"><img src="img/wema.jpg"></div>
-  <div class="slide"><img src="img/firstbank.jpg"></div>
-  <div class="slide"><img src="img/zenith.jpg"></div>
+      <br />
+      <p id="product"></p>
+      <br />
+      <br />
+      <h2 style="color:#091f3c"><strong>
+          <center>
+            Our Products
+          </center>
+        </strong>
+      </h2>
+      <br />
 
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div id="particles1-js">
+            <div class="pay">
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <h2 style="color:#c9092e">
+                <strong>
+                  Pay Centre
+                </strong>
+              </h2>
+              PayCentre is a neighborhood bank! The solution provides access to financial services in areas where
+              Banks do not exist by converting existing retail outlets to Banking centres.
+              <br />
+              <br />
+              <h4>
+                <b>
+                  Visit Product <img src="img/right.png" alt="e-Settlement">
+                </b>
+              </h4>
+            </div>
+          </div>
+        </div>
 
-</section>
+        <!-- only avilable on small screens -->
+        <div class="small">
+          <div class="col-lg-6 col-sm-12">
+            <div class="pay">
+              <br />
+              <h2 style="color:#c9092e">
+                <strong>
+                  Pay Centre
+                </strong>
+              </h2>
+              PayCentre is a neighborhood bank! The solutionn provides access to financial services in areas where
+              Banks do not exist by converting existing retail outlets to Banking centres.
+              <br />
+              <br />
+              <h4>
+                <b>
+                  Visit Product <img src="img/right.png" alt="e-Settlement">
+                </b>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- ends here -->
 
+        <div class="col-lg-6 col-sm-12">
+          <img src="img/p.png" alt="Smiley face" height="100%" width="100%">
+        </div>
+      </div>
 
-<!-- <img src="img/pat.png" alt="Smiley face" height="80" width="100%"> -->
+      <div class="row">
+        <!-- only avilable on small screens -->
+        <div class="small">
+          <div class="col-lg-6 col-sm-12">
+            <div id="cash">
+              <div class="pay">
+                <br />
+                <h2 style="color:#c9092e">
+                  <strong>
+                    Cash Envoy
+                  </strong>
+                </h2>
+                CashEnvoy is a payment gateway that allows merchants receive payment for goods and services from
+                customers online and offline through the mpos.
+                <br />
+                <br />
+                <h4>
+                  <b align="left">
+                    Visit Product <img src="img/right.png" alt="e-Settlement">
+                  </b>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!-- ends here -->
 
-<br/>
-</div></div>
-<footer>
-<div class="foot">
-    <div class="row" style="color:#fff">
-        <div class="col-sm"><b>e-Settlement</b></div>
+        <div class="col">
+          <img src="img/cash.png" alt="Smiley face" height="100%" width="100%">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div id="cash">
+            <div id="particles2-js">
+              <div class="pay">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <h2 style="color:#c9092e">
+                  <strong>
+                    Cash Envoy
+                  </strong>
+                </h2>
+                CashEnvoy is a payment gateway that allows merchants receive payment for goods and services from
+                customers online and offline through the mpos.
+                <br />
+                <br />
+                <h4>
+                  <b align="left">
+                    Visit Product <img src="img/right.png" alt="e-Settlement">
+                  </b>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div id="particles0-js">
+            <div class="pay">
+              <br />
+              <br />
+              <br />
+              <br />
+              <h2 style="color:#c9092e">
+                <strong>
+                  PayPad
+                </strong>
+              </h2>
+              PayPad is a white labelled mpos solution. That allows Banks and acquiring institutions deploy mpos
+              solutions for their customers to accept card and cash payments.
+              <br />
+              <br />
+              <h4>
+                <b>
+                  Visit Product <img src="img/right.png" alt="e-Settlement">
+                </b>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- only avilable on small screens -->
+        <div class="small">
+          <div class="col-lg-6 col-sm-12">
+            <div class="pay">
+              <br />
+              <h2 style="color:#c9092e">
+                <strong>
+                  PayPad
+                </strong>
+              </h2>
+              PayPad is a white labelled mpos solution. That allows Banks and acquiring institutions deploy mpos
+              solutions for their customers to accept card and cash payments.
+              <br />
+              <br />
+              <h4>
+                <b>
+                  Visit Product <img src="img/right.png" alt="e-Settlement">
+                </b>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- ends here -->
+
+        <div class="col-lg-6 col-sm-12">
+          <img src="img/pay.png" alt="Smiley face" height="100%" width="100%">
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+        </div>
+      </div>
+      <br />
+      <h2 style="color:#0c4768">
+        <strong>
+          <center>
+            Our Partners
+          </center>
+        </strong>
+      </h2>
+
+      <!-- slider -->
+      <section class="customer-logos slider">
+        <div class="slide"><img src="img/access.jpg"></div>
+        <div class="slide"><img src="img/GTBank.jpg"></div>
+        <div class="slide"><img src="img/diamond.jpg"></div>
+        <div class="slide"><img src="img/nipost.jpg"></div>
+        <div class="slide"><img src="img/wema.jpg"></div>
+        <div class="slide"><img src="img/firstbank.jpg"></div>
+        <div class="slide"><img src="img/zenith.jpg"></div>
+      </section>
+      <br />
+    </div>
+  </div>
+  <!-- end slide -->
+
+  <!-- footer start -->
+  <footer>
+    <!-- Table start -->
+    <div class="foot">
+      <div class="row" style="color:#fff">
+        <div class="col-sm">
+          <img src="img/logo22.png" alt="e-Settlement" height="30px" width="160px">
+        </div>
         <div class="col-sm"><b>Connect</b></div>
         <div class="col-sm"><b>Products</b></div>
         <div class="col-sm"><b>Contact</b></div>
       </div>
-      <br/>
-      <div class="row" style="color:rgb(212, 151, 151)">
-          <div class="col-sm">Home</div>
-          <div class="col-sm">Linkedln</div>
-          <div class="col-sm">PayPad</div>
-          <div class="col-sm">No. 13 Hughes Avenue <br/>
+      <br />
+      <div class="row" style="color:grey">
+        <div class="col-sm">Home</div>
+        <div class="col-sm">Linkedln</div>
+        <div class="col-sm">PayPad</div>
+        <div class="col-sm">No. 13 Hughes Avenue <br />
           Alagomeji, Lagos State</div>
-        </div>
-        <div class="row" style="color:grey">
-            <div class="col-sm">About Us</div>
-            <div class="col-sm">Facebook</div>
-            <div class="col-sm">PayCentre</div>
-            <div class="col-sm">01 - 234 -899</div>
-          </div>
-          <br/>
-
-          <div class="row" style="color:grey">
-            <div class="col-sm">Blog</div>
-            <div class="col-sm">Twitter</div>
-            <div class="col-sm">Cash Envoy</div>
-            <div class="col-sm">hello@paypad.com</div>
-          </div>
-          <br/>
-          <div class="row" style="color:grey">
-            <div class="col-sm">Career</div>
-          </div>
+      </div>
+      <div class="row" style="color:grey">
+        <div class="col-sm">About Us</div>
+        <div class="col-sm">Facebook</div>
+        <div class="col-sm">PayCentre</div>
+        <div class="col-sm">01 - 234 -899</div>
+      </div>
+      <br />
+      <div class="row" style="color:grey">
+        <div class="col-sm">Blog</div>
+        <div class="col-sm">Twitter</div>
+        <div class="col-sm">Cash Envoy</div>
+        <div class="col-sm">hello@paypad.com</div>
+      </div>
+      <br />
+      <div class="row" style="color:grey">
+        <div class="col-sm">Career</div>
+      </div>
     </div>
-    <br/>
+    <!-- table ends -->
+    <br />
     <center>Copyright e-Settlement @ 2018</center>
 
-</footer>
-  
-<script src="js/test.js"></script>
-
+  </footer>
+  <!-- footer end -->
 </body>
+
 </html>
-
-
-

@@ -1,95 +1,115 @@
 @media only screen and (min-width: 768px) {
-#particles-js {
-  width: 100%;
-  height: 70%;
-  position: absolute;
-  background-position: 50% 50%;
+  #particles-js {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-position: 50% 50%;
 
-}
-#particles1-js {
-  width: 100%;
-  height: 70%;
-  position: absolute;
-  background-position: 50% 50%;
+  }
 
+  #particles0-js {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-position: 50% 50%;
+
+  }
+
+  #particles1-js {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-position: 50% 50%;
+
+  }
+
+  #particles2-js {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-position: 50% 50%;
+  }
+
+  #particles3-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: 50% 50%;
+
+  }
+
+  .container-fluid {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  #nav {
+    margin-left: 75px;
+  }
+
+  .cen {
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  #cash {
+    text-align: left;
+  }
+
+  .pay {
+    text-align: left;
+    position: absolute;
+  }
+
+  .right {
+    text-align: right;
+    position: absolute;
+  }
+
+  .navbar {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .nav-item {
+    padding-left: 10px;
+  }
+
+
+  .small {
+    display: none;
+  }
 }
-#particles2-js {
-  width: 100%;
-  height: 70%;
-  position: absolute;
-  background-position: 50% 50%;
-}
-#particles3-js {
+
+footer {
+  background-color: #091f3c;
+  color: #fff;
   width: 100%;
   height: 100%;
-  position: absolute;
-  background-position: 50% 50%;
-
-}
-.container-fluid{
-  font-family: 'Nunito Sans', sans-serif;
-  font-style: bold;
-  font-size: 20px;
-  padding-right: 100px;
-  padding-left: 100px;
-}
-.cen{
-  text-align: center;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-#cash{
-  text-align: left;
-}
-.pay{
-  text-align: left;
-  position: absolute;
-}
-.right{
-  text-align: right;
-  position: absolute;
-}
-.navbar{font-family: 'Nunito Sans', sans-serif;
-}
-.nav-item{
-  padding-left: 10px;
-}
-.btn{
-  padding:10px;
-    padding-right: 30px;
-    padding-left: 30px;
-    text-align: center;
-    border-radius: 20px;
-}
-.small{
-  display: none;
-}
-}
-
-footer{
-  background-color:#091f3c;
-  color:#fff;
-  width: 100%;
-  height:100%;
   margin-top: 1rem;
- 
+
 }
-.foot{
+
+.foot {
   font-family: 'Nunito Sans', sans-serif;
   font-style: bold;
   background-color: #091f3c;
-  width:100%;
-  height:70%;
-  padding-left: 40px;
+  width: 90%;
+  height: 70%;
+  padding-left: 80px;
   padding-top: 25px;
   padding-bottom: 25px;
 
 }
+
 .card {
   font-family: 'Nunito Sans', sans-serif;
   font-style: bold;
-  width:100%;
-  height:90%;
+  width: 100%;
+  height: 90%;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 25px;
@@ -97,6 +117,36 @@ footer{
   border-radius: 20px;
 }
 
+
+.card1-container {
+  height: 30px;
+  perspective: 600;
+  position: relative;
+  width: 180px;
+}
+
+.card1 {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+
+.card1:hover {
+  transform: rotateY(180deg);
+}
+
+.card1 .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.card1 .back {
+  transform: rotateY(180deg);
+}
 
 #slideshow {
   margin: 80px auto;
@@ -107,7 +157,7 @@ footer{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
-#slideshow > div {
+#slideshow>div {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -125,162 +175,209 @@ footer{
   max-height: 90px;
 }
 
-.slick-slider
-{
+.slick-slider {
   position: relative;
   display: block;
   box-sizing: border-box;
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   touch-callout: none;
   -khtml-user-select: none;
   -ms-touch-action: pan-y;
-      touch-action: pan-y;
+  touch-action: pan-y;
   tap-highlight-color: transparent;
 }
 
-.slick-list
-{
+.slick-list {
   position: relative;
   display: block;
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
-.slick-list:focus
-{
+
+.slick-list:focus {
   outline: none;
 }
-.slick-list.dragging
-{
+
+.slick-list.dragging {
   cursor: pointer;
   cursor: hand;
 }
 
 .slick-slider .slick-track,
-.slick-slider .slick-list
-{
+.slick-slider .slick-list {
   transform: translate3d(0, 0, 0);
-     -moz-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
-       -o-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
-.slick-track
-{
+.slick-track {
   position: relative;
   top: 0;
   left: 0;
   display: block;
 }
+
 .slick-track:before,
-.slick-track:after
-{
+.slick-track:after {
   display: table;
   content: '';
 }
-.slick-track:after
-{
+
+.slick-track:after {
   clear: both;
 }
-.slick-loading .slick-track
-{
+
+.slick-loading .slick-track {
   visibility: hidden;
 }
 
-.slick-slide
-{
+.slick-slide {
   display: none;
   float: left;
   height: 100%;
   min-height: 1px;
 }
-[dir='rtl'] .slick-slide
-{
+
+[dir='rtl'] .slick-slide {
   float: right;
 }
-.slick-slide img
-{
+
+.slick-slide img {
   display: block;
 }
-.slick-slide.slick-loading img
-{
+
+.slick-slide.slick-loading img {
   display: none;
 }
-.slick-slide.dragging img
-{
+
+.slick-slide.dragging img {
   pointer-events: none;
 }
-.slick-initialized .slick-slide
-{
+
+.slick-initialized .slick-slide {
   display: block;
 }
-.slick-loading .slick-slide
-{
+
+.slick-loading .slick-slide {
   visibility: hidden;
 }
-.slick-vertical .slick-slide
-{
+
+.slick-vertical .slick-slide {
   display: block;
   height: auto;
   border: 1px solid transparent;
 }
+
 .slick-arrow.slick-hidden {
   display: none;
 }
 
 /* shake effect */
 @keyframes spaceboots {
-0% { transform: translate(2px, 1px) rotate(0deg); }
-10% { transform: translate(-1px, -2px) rotate(-1deg); }
-20% { transform: translate(-3px, 0px) rotate(1deg); }
-30% { transform: translate(0px, 2px) rotate(0deg); }
-40% { transform: translate(1px, -1px) rotate(1deg); }
-50% { transform: translate(-1px, 2px) rotate(-1deg); }
-60% { transform: translate(-3px, 1px) rotate(0deg); }
-70% { transform: translate(2px, 1px) rotate(-1deg); }
-80% { transform: translate(-1px, -1px) rotate(1deg); }
-90% { transform: translate(2px, 2px) rotate(0deg); }
-100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(2px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(2px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
+
 .shake:hover,
 .shake:focus {
-animation-name: spaceboots;
-animation-duration: 0.8s;
-transform-origin:50% 50%;
-animation-iteration-count: 0.15s;
-animation-timing-function: linear;
+  animation-name: spaceboots;
+  animation-duration: 0.8s;
+  transform-origin: 50% 50%;
+  animation-iteration-count: 0.15s;
+  animation-timing-function: linear;
+}
+
+.btn {
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  border-radius: 20px;
 }
 
 
 @media only screen and (max-width: 768px) {
+
   /* For mobile phones: */
-  #particles-js {
-   display: none;
-}#particles1-js {
-  display: none;
-}#particles2-js {
-  display: none;
-}#particles3-js {
-  display: none;
-}
-.pay{
-  text-align: justify;
-position: inherit;
-}
-.cen{
-  text-align: justify;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.container-fluid{
-  font-family: 'Nunito Sans', sans-serif;
-  font-style: bold;
-  font-size: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
+  #particles0-js {
+    display: none;
+  }
+
+  #particles1-js {
+    display: none;
+  }
+
+  #particles2-js {
+    display: none;
+  }
+
+  #particles3-js {
+    display: none;
+  }
+
+  .pay {
+    text-align: justify;
+    position: inherit;
+  }
+
+  .cen {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .container-fluid {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
