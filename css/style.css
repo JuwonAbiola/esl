@@ -31,12 +31,11 @@
   }
 
   #particles3-js {
-    width: 1450px;
-    height: 550px;
+    width: 90%;
+    height: 45%;
     position: absolute;
     background-position: 50% 50%;
-    padding-left: 550px;
-
+    padding-left: 30%;
   }
 
   #en {
@@ -387,9 +386,6 @@
     padding-left: 10px;
   }
 
-
-
-
   #en {
     font-size: 40px;
   }
@@ -412,7 +408,6 @@ footer {
   min-height: 250px;
   padding: 10px 0px 25px 0px;
   font-size: 20px;
-
 }
 
 .pt2 {
