@@ -82,7 +82,7 @@
     <br />
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8" "col-sm-12">
           <div class="card text-dark">
             <h2 align="left"><strong>
                 Get In Touch
@@ -112,9 +112,10 @@
           </div>
 
         </div>
-        <div class="col-md-4" style="padding-left:50px">
 
-          <img src=" img/logo1.png" alt="e-Settlement" style="padding-top:70px">
+        <div class="col-md-4" "col-sm-12" style="padding-left:50px">
+
+          <img src=" img/logo1.png" alt="e-Settlement" style="padding-top:70px" width="300px">
           <br />
           <br />
           <h4 align="left"><strong>
@@ -140,6 +141,7 @@
           <h7 align="left">
             <i class="fa fa-phone"></i> 01 - 234 -899</h7>
         </div>
+
       </div>
     </div>
   </div>
@@ -148,7 +150,75 @@
 
     <center style="color:#ccc">Copyright e-Settlement @ 2018</center>
   </footer>
+  <script src="js/jquery-3.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/particleload.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/unpkg.js"></script>
+  <script>
+    AOS.init({
+      duration: 2000
+    });
+  </script>
+  <script>
+    particlesJS.load('particles-js', 'particles.json',
+      function () {
+        console.log('particles-json loaded .... ')
+      })
+  </script>
+  <script>
+    particlesJS.load('particles0-js', 'particles0.json',
+      function () {
+        console.log('particles-json loaded .... ')
+      })
+  </script>
+  <script>
+    particlesJS.load('particles1-js', 'particles1.json',
+      function () {
+        console.log('particles-json loaded .... ')
+      })
+  </script>
+  <script>
+    particlesJS.load('particles2-js', 'particles2.json',
+      function () {
+        console.log('particles-json loaded .... ')
+      })
+  </script>
+  <script>
+    particlesJS.load('particles3-js', 'particles3.json',
+      function () {
+        console.log('particles-json loaded .... ')
+      })
+  </script>
+  <script src="js/test.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
 
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
 </body>
 
 </html>
