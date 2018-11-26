@@ -505,17 +505,8 @@
 
 
 @media only screen and (max-width: 991px) {
-  .card {
-    font-family: 'Nunito Sans', sans-serif;
-    font-style: bold;
-    width: 100%;
-    height: 70%;
-    /* padding-left: 10px;
-    padding-right: 10px; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    /* box-shadow: 5px 10px #091f3c; */
+  .big {
+    display: none;
   }
 
   /* For mobile phones: */
@@ -572,7 +563,6 @@ footer {
   font-size: 15px;
   width: 100%;
   background-color: #091f3c;
-  min-height: 250px;
   padding: 10px 0px 25px 0px;
   font-size: 20px;
 }
