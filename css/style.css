@@ -536,7 +536,7 @@ input[type=submit]:hover {
     height: 90%;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 0px;
+    padding-top: 10px;
     padding-bottom: 80px;
     border-radius: 5px;
     box-shadow: 5px 10px #091f3c;
@@ -554,7 +554,7 @@ input[type=submit]:hover {
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 1px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     resize: vertical;
   }
 
@@ -562,8 +562,8 @@ input[type=submit]:hover {
     background-color: #091f3c;
     color: white;
     padding: 6px 10px;
-    border: 5px;
-    border-radius: 15px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
   }
 
