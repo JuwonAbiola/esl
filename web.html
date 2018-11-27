@@ -20,59 +20,66 @@
 
 <body data-spy="scroll" data-target="#navbarshark" data-offset="98">
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #091f3c;">
-    <a class="navbar-brand" href="index.html">
-      <div id="nav">
-        <div class="card1-container">
-          <div class="card1">
-            <div class="side"> <img src="img/logo22.png" alt="e-Settlement" height="30px" width="180px">
-            </div>
-            <div class="side back"> <img src="img/logo22.png" alt="e-Settlement" height="30px" width="180px">
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar header-nav fixed-top navbar-expand-md navbar-dark" style="background-color: #091f3c;">
+      <a class="navbar-brand" href="#">
+        <div id="nav" data-aos="fade-down">
+          <div class="card1-container">
+            <div class="card1">
+              <div class="side">
+                <img src="img/logo22.png" alt="e-Settlement" height="30px" width="180px">
+              </div>
+              <div class="side back">
+                <img src="img/logo22.png" alt="e-Settlement" height="30px" width="180px">
+              </div>
             </div>
           </div>
         </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarshark" aria-controls="navshark"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarshark">
+        <ul class="navbar-nav">
+          <li>
+            <a class="nav-link" href="index.html#pay">
+              <b>
+                HOME
+              </b>
+              <span class="sr-only">
+                (current)
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html#about">
+              <b>
+                ABOUT
+              </b>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html#product">
+              <b>
+                PRODUCTS
+              </b>
+            </a>
+          </li>
+          <li style="margin-right:75px">
+            <a class="nav-link" href="web.html">
+              <b>
+                CONTACT US
+              </b>
+            </a>
+          </li>
+        </ul>
       </div>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">
-            <b>
-              HOME
-            </b>
-            <span class="sr-only">
-              (current)
-            </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#about">
-            <b>
-              ABOUT
-            </b>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#product">
-            <b>
-              PRODUCTS
-            </b>
-          </a>
-        </li>
-        <li class="nav-item" style="margin-right:75px">
-          <a class="nav-link" href="web.html">
-            <b>
-              CONTACT US
-            </b>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    </nav>
+    <!-- navbar end -->
+  </header>
   <!-- navbar end -->
   <br />
   <br />
@@ -303,32 +310,7 @@
   </script>
   <script src="js/test.js"></script>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-  <script>
-    $(document).ready(function () {
-      // Add smooth scrolling to all links
-      $("a").on('click', function (event) {
 
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function () {
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-  </script>
 </body>
 
 </html>

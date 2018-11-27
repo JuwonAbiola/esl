@@ -536,10 +536,39 @@ input[type=submit]:hover {
     height: 90%;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 30px;
-    padding-bottom: 90px;
+    padding-top: 0px;
+    padding-bottom: 80px;
     border-radius: 5px;
     box-shadow: 5px 10px #091f3c;
+    font-size: 20px;
+
+  }
+
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 8px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #091f3c;
+    color: white;
+    padding: 6px 10px;
+    border: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #b30000;
   }
 
   .big {
