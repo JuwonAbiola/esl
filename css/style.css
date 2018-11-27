@@ -285,8 +285,8 @@ input[type=submit]:hover {
   height: 90%;
   padding-left: 70px;
   padding-right: 70px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 60px;
+  padding-bottom: 90px;
   border-radius: 5px;
   box-shadow: 5px 10px #091f3c;
 }
@@ -529,6 +529,19 @@ input[type=submit]:hover {
 
 
 @media only screen and (max-width: 991px) {
+  .card {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: bold;
+    width: 100%;
+    height: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    border-radius: 5px;
+    box-shadow: 5px 10px #091f3c;
+  }
+
   .big {
     display: none;
   }
