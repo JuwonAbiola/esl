@@ -4405,7 +4405,7 @@ input[type=submit].btn-block {
 .navbar-text {
     display: inline-block;
     padding-top: .5rem;
-    padding-bottom: .5rem
+    /* padding-bottom: .5rem */
 }
 
 .navbar-collapse {
